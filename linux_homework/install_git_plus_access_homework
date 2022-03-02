@@ -1,0 +1,12 @@
+sudo dnf -y install git
+git --version
+mkdir git-projects
+cd git-projects/
+git clone https://github.com/jaycuboss/HelloHub
+cd HelloHub/
+cd linux_homework/
+git config --global user.email "jacob.r.haas@gmail.com"
+git config --global user.name "jaycuboss"
+git commit -m "homework update
+git push
+
